@@ -1,26 +1,24 @@
 import React from 'react'
 import { BrowserRouter as Router, NavLink, Route, Link, history } from 'react-router-dom'
-import Action from '../../redux/action'
 import Store from '../../redux/store'
-class Index extends React.Component {
+import Action from '../../redux/action'
+
+class Nav extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            msg: 345345
+            msg: ""
         }
     }
     render() {
         return (
-            <div>
-
-                这是路由的测试  Index  {this.state.msg}</div>
-
+            <div>5434</div>
         )
     }
     componentWillMount() {
-        Store.dispatch(Action.size('登陆'))
+        Store.dispatch(Action.size('导航'))
+
     }
 
-
 }
-export default Index
+export default Nav

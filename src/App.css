@@ -25,9 +25,9 @@
   background: orchid;
   color: #fff
 }
-.App > footer > span {
+.App > footer > a {
   display: inline-block;
-  width: 24.7%;
+  width: 24.6%;
   background: pink;
   border-right: 1px solid orange;
     text-align: center;
