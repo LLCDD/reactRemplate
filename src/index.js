@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 import './font-size/base.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+import http from './http'
+React.Component.prototype.http = http;
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
